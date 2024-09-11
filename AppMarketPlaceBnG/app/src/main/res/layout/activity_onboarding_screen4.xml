@@ -85,19 +85,37 @@
 
     <Button
         android:id="@+id/btn_proximo4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Proxímo"
-        app:cornerRadius="20dp"
-        app:strokeColor="#8E8888"
-        app:strokeWidth="1.5dp"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
         android:backgroundTint="#F5CF77"
+        android:text="Proxímo"
         android:textColor="#453D3D"
+        android:textSize="24sp"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintHorizontal_bias="0.832"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935" />
+        app:layout_constraintVertical_bias="0.952"
+        app:strokeColor="#8E8888"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/btn_voltar4"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#F2F2F2"
+        android:text="Pular"
+        android:textColor="#453D3D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_logo_onb4"
+        app:layout_constraintVertical_bias="0.954"
+        app:strokeColor="#8E8888"
+        app:strokeWidth="1.5dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

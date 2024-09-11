@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppMarketPlaceBnG"
         tools:targetApi="31">
         <activity
+            android:name=".index"
+            android:exported="false" />
+        <activity
+            android:name=".sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".forgot_password3"
+            android:exported="false" />
+        <activity
+            android:name=".forgoto_password"
+            android:exported="false" />
+        <activity
             android:name=".onboarding_screen4"
             android:exported="false" />
         <activity
