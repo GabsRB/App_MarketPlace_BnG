@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9D5"
+    tools:context=".Onboarding_Screen1">
+
+    <ImageView
+        android:id="@+id/img_logo_onbording"
+        android:layout_width="128dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logobng" />
+
+    <ImageView
+        android:id="@+id/imag_onbor"
+        android:layout_width="366dp"
+        android:layout_height="312dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/Imag_Onboardingone" />
+
+    <Button
+        android:id="@+id/btn_pular_onboarding"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#F2F2F2"
+
+        android:text="Pular"
+        android:textColor="#453D3D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
+        app:strokeColor="#8E8888"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/btn_proximo"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#F5CF77"
+        android:text="Proxímo"
+
+        android:textColor="#453D3D"
+        android:textSize="24sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:strokeColor="#8E8888"
+        app:strokeWidth="1.5dp" />
+
+    <ImageView
+        android:id="@+id/imag_progresso"
+        android:layout_width="234dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/progresso" />
+
+    <TextView
+        android:id="@+id/txt_part2"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/mulish_extrabold"
+        android:text="Facilidade, Controle,"
+        android:textColor="#2F2D2D"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/txt_Parte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mulish_extrabold"
+        android:text="  Otimização dos Processos"
+        android:textColor="#2F2D2D"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/txt_sobre"
+        android:layout_width="361dp"
+        android:layout_height="78dp"
+        android:fontFamily="@font/mulish"
+        android:text="Facilmente para gerir as ordens de serviço e acompanhar cada etapa do desenvolvimento do software"
+        android:textAlignment="center"
+        android:textColor="#464242"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

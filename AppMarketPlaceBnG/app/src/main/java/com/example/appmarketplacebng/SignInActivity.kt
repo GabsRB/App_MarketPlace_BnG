@@ -1,19 +1,19 @@
 package com.example.appmarketplacebng
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.content.Intent
-import android.os.Handler
-import android.os.Looper
+import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_sign_in)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -21,10 +21,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, Onboarding_Screen1::class.java)
+        val btnesqueceu = findViewById<TextView>(R.id.txt_esqueceusenha)
+
+        btnesqueceu.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
             startActivity(intent)
-            finish()
-        }, 7000)
+        }
+
     }
 }
