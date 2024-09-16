@@ -19,19 +19,17 @@ class ChooseEntryActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val btn_cadastrar = findViewById<Button>(R.id.btn_cadastrar)
 
-        val btnEnter = findViewById<Button>(R.id.btn_choose)
-        val btnRegister = findViewById<Button>(R.id.btn_cadastrar)
-
-        btnEnter.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java) // Substitua pela Activity de login
+        btn_cadastrar.setOnClickListener {
+            val intent = Intent(this, sign_up::class.java)
             startActivity(intent)
         }
+        val btn_choose = findViewById<Button>(R.id.btn_choose)
 
-
-       // btnRegister.setOnClickListener {
-        //    val intent = Intent(this, RegisterActivity::class.java) // Substitua pela Activity de cadastro
-      //      startActivity(intent)
-       // }
+        btn_choose.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

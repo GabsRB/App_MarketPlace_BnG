@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/img_logo_onb3"
-        android:layout_width="127dp"
-        android:layout_height="79dp"
+        android:layout_width="134dp"
+        android:layout_height="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641"
+        app:layout_constraintVertical_bias="0.7"
         app:srcCompat="@drawable/progressofour" />
 
     <TextView
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <TextView
         android:id="@+id/textView2"
@@ -68,43 +68,45 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798" />
+        app:layout_constraintVertical_bias="0.868" />
 
     <Button
         android:id="@+id/btn_proximo3"
         android:layout_width="155dp"
-        android:layout_height="52dp"
+        android:layout_height="60dp"
         android:backgroundTint="#F5CF77"
+        android:fontFamily="@font/mulish_extrabold"
         android:text="Proxímo"
         android:textColor="#453D3D"
         android:textSize="24sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935"
+        app:layout_constraintVertical_bias="0.961"
         app:strokeColor="#8E8888"
         app:strokeWidth="1.5dp" />
 
     <Button
         android:id="@+id/btn_voltar3"
         android:layout_width="159dp"
-        android:layout_height="53dp"
+        android:layout_height="60dp"
         android:backgroundTint="#F2F2F2"
-        android:text="Pular"
+        android:fontFamily="@font/mulish_extrabold"
+        android:text="Voltar"
         android:textColor="#453D3D"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934"
+        app:layout_constraintVertical_bias="0.96"
         app:strokeColor="#8E8888"
         app:strokeWidth="1.5dp" />
 

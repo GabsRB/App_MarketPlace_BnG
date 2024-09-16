@@ -1,6 +1,8 @@
 package com.example.appmarketplacebng
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +17,18 @@ class onboarding_screen4 : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        val btn_proximo4 = findViewById<Button>(R.id.btn_proximo4)
+
+        btn_proximo4.setOnClickListener {
+            val intent = Intent(this, ChooseEntryActivity::class.java)
+            startActivity(intent)
+        }
+        val btn_voltar4 = findViewById<Button>(R.id.btn_voltar4)
+
+        btn_voltar4.setOnClickListener {
+            val intent = Intent(this, onboarding_screen3::class.java)
+            startActivity(intent)
         }
     }
 }

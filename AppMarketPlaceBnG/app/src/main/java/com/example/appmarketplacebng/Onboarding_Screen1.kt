@@ -21,7 +21,7 @@ class Onboarding_Screen1 : AppCompatActivity() {
         val btn_proximo1 = findViewById<Button>(R.id.btn_proximo)
 
         btn_proximo1.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java)
+            val intent = Intent(this, onboarding_screen2::class.java)
             startActivity(intent)
         }
         val btn_onepular_onboarding = findViewById<Button>(R.id.btn_pular_onboarding)

@@ -43,7 +43,7 @@
         android:fontFamily="@font/mulish"
         android:text="Encontre os melhores software ou negócios para sua carreira ou empresa. Seja membro! "
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#464242"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,8 +54,8 @@
 
     <Button
         android:id="@+id/btn_choose"
-        android:layout_width="163dp"
-        android:layout_height="58dp"
+        android:layout_width="169dp"
+        android:layout_height="73dp"
         android:backgroundTint="#F5CF77"
         android:fontFamily="@font/mulish_extrabold"
         android:text="Login"
@@ -63,17 +63,17 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933"
+        app:layout_constraintVertical_bias="0.951"
         app:strokeColor="#8E8888"
         app:strokeWidth="1.5dp" />
 
     <Button
         android:id="@+id/btn_cadastrar"
-        android:layout_width="162dp"
-        android:layout_height="59dp"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
         android:backgroundTint="#F5CF77"
         android:fontFamily="@font/mulish_extrabold"
         android:shadowColor="#00988686"
@@ -83,10 +83,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933"
+        app:layout_constraintVertical_bias="0.951"
         app:strokeColor="#8E8888"
         app:strokeWidth="1.5dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
